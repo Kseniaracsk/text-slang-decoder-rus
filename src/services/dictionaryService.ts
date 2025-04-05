@@ -17,7 +17,8 @@ const addEntry = (entry: Omit<DictionaryEntry, 'id'>, dictionary: DictionaryEntr
   return updatedDictionary;
 };
 
-export { DictionaryEntry };
+// Using 'export type' to properly export the type when isolatedModules is enabled
+export type { DictionaryEntry };
 
 export const dictionaryService = {
   loadDictionary,

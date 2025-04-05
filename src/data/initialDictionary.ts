@@ -1,4 +1,3 @@
-
 import { DictionaryEntry } from '@/types/dictionary.types';
 
 // Initial dictionary data with all entries
@@ -395,5 +394,84 @@ export const initialDictionary: DictionaryEntry[] = [
     translationRussian: 'Дополненная реальность: Технология, накладывающая цифровые объекты на реальный мир',
     usageExample: 'The app uses AR to overlay digital information onto the real world.',
     source: 'Wired'
+  },
+  {
+    id: '51',
+    abbreviation: 'NHS',
+    fullTermEnglish: 'National Health Service',
+    translationRussian: 'Национальная служба здравоохранения (Великобритания): Государственная система здравоохранения Великобритании',
+    usageExample: 'The NHS provides healthcare to all UK residents, free at the point of use.',
+    source: 'The Guardian'
+  },
+  {
+    id: '52',
+    abbreviation: 'COP',
+    fullTermEnglish: 'Conference of the Parties',
+    translationRussian: 'Конференция сторон: Часто используется в контексте климатических конференций ООН',
+    usageExample: 'The upcoming COP will focus on global efforts to combat climate change.',
+    source: 'BBC'
+  },
+  {
+    id: '53',
+    abbreviation: 'IPCC',
+    fullTermEnglish: 'Intergovernmental Panel on Climate Change',
+    translationRussian: 'Межправительственная группа экспертов по изменению климата',
+    usageExample: 'The IPCC releases comprehensive assessments of climate change science.',
+    source: 'The Guardian'
+  },
+  {
+    id: '54',
+    abbreviation: 'ROI',
+    fullTermEnglish: 'Return on Investment',
+    translationRussian: 'Рентабельность инвестиций: Показатель, отражающий доходность вложений',
+    usageExample: 'Calculating the ROI is crucial for evaluating the profitability of a project.',
+    source: 'Financial Times'
+  },
+  {
+    id: '55',
+    abbreviation: 'VC',
+    fullTermEnglish: 'Venture Capital',
+    translationRussian: 'Венчурный капитал: Инвестиции в стартапы и компании с высоким потенциалом роста',
+    usageExample: 'The startup secured VC funding to expand its operations.',
+    source: 'Forbes'
+  },
+  {
+    id: '56',
+    abbreviation: 'IPO',
+    fullTermEnglish: 'Initial Public Offering',
+    translationRussian: 'Первичное публичное размещение акций: Первый выход компании на фондовый рынок',
+    usageExample: 'The company is planning an IPO to raise capital on the stock market.',
+    source: 'Wall Street Journal'
+  },
+  {
+    id: '57',
+    abbreviation: 'SaaS',
+    fullTermEnglish: 'Software as a Service',
+    translationRussian: 'Программное обеспечение как услуга: Модель распространения ПО по подписке',
+    usageExample: 'The company offers a SaaS platform for managing customer relationships.',
+    source: 'TechCrunch'
+  },
+  {
+    id: '58',
+    abbreviation: 'SMB',
+    fullTermEnglish: 'Small and Medium-sized Businesses',
+    translationRussian: 'Малый и средний бизнес: Компании с небольшим штатом и оборотом',
+    usageExample: 'The software is designed specifically for SMBs.',
+    source: 'Forbes'
+  },
+  {
+    id: '59',
+    abbreviation: 'HR',
+    fullTermEnglish: 'Human Resources',
+    translationRussian: 'Отдел кадров / Управление персоналом: Отдел, отвечающий за найм, обучение и управление сотрудниками',
+    usageExample: 'The HR department handles employee recruitment, benefits, and training.',
+    source: 'The Guardian'
+  },
+  {
+    id: '60',
+    abbreviation: 'IJ',
+    fullTermEnglish: 'Investigative Journalism',
+    translationRussian: 'Расследовательская журналистика: Журналистика, занимающаяся глубоким исследованием и разоблачением общественно значимых проблем',
+    source: 'Columbia Journalism Review'
   }
 ];
