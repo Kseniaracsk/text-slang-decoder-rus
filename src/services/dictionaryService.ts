@@ -122,7 +122,7 @@ const initialDictionary: DictionaryEntry[] = [
     abbreviation: 'CEO',
     fullTermEnglish: 'Chief Executive Officer',
     translationRussian: 'Генеральный директор: Главное должностное лицо компании',
-    usageExample: 'Angela Chao, C.E.O. of Family's Shipping Company, Is Dead at 50',
+    usageExample: "Angela Chao, C.E.O. of Family's Shipping Company, Is Dead at 50",
     source: 'The New York Times'
   },
   {
@@ -130,7 +130,7 @@ const initialDictionary: DictionaryEntry[] = [
     abbreviation: 'CFO',
     fullTermEnglish: 'Chief Financial Officer',
     translationRussian: 'Финансовый директор: Главное должностное лицо, ответственное за финансы компании',
-    usageExample: 'Your C.F.O., a 'Fraction' of the Time',
+    usageExample: "Your C.F.O., a 'Fraction' of the Time",
     source: 'The Wall Street Journal'
   },
   {
@@ -154,7 +154,7 @@ const initialDictionary: DictionaryEntry[] = [
     abbreviation: 'DOJ',
     fullTermEnglish: 'Department of Justice',
     translationRussian: 'Министерство юстиции (США): Федеральный орган исполнительной власти в США',
-    usageExample: 'U.S. DOJ joins antitrust lawsuit challenging NCAA's transfer rules',
+    usageExample: "U.S. DOJ joins antitrust lawsuit challenging NCAA's transfer rules",
     source: 'Reuters'
   },
   {
@@ -170,7 +170,7 @@ const initialDictionary: DictionaryEntry[] = [
     abbreviation: 'SEC',
     fullTermEnglish: 'Securities and Exchange Commission',
     translationRussian: 'Комиссия по ценным бумагам и биржам (США): Регулирует рынок ценных бумаг в США',
-    usageExample: 'A Hack of the S.E.C.'s Social Media Account Caused a Bitcoin Frenzy, Briefly',
+    usageExample: "A Hack of the S.E.C.'s Social Media Account Caused a Bitcoin Frenzy, Briefly",
     source: 'The Wall Street Journal'
   },
   {
@@ -202,7 +202,7 @@ const initialDictionary: DictionaryEntry[] = [
     abbreviation: 'RSVP',
     fullTermEnglish: 'Répondez S\'il Vous Plaît',
     translationRussian: 'Просьба ответить (фр.): Французское выражение, обозначающее просьбу подтвердить участие',
-    usageExample: 'Party Down' Is Back. Did You R.S.V.P.?',
+    usageExample: "Party Down' Is Back. Did You R.S.V.P.?",
     source: 'The New York Times'
   },
   {
@@ -210,7 +210,7 @@ const initialDictionary: DictionaryEntry[] = [
     abbreviation: 'ACV',
     fullTermEnglish: 'Alaska Conservation Voters',
     translationRussian: 'Избиратели за охрану природы Аляски: Организация, занимающаяся защитой окружающей среды',
-    usageExample: 'Belgium's police trade union, ACV Politie, expressed anger over the killing...',
+    usageExample: "Belgium's police trade union, ACV Politie, expressed anger over the killing...",
     source: 'The Guardian'
   },
   {
@@ -257,7 +257,7 @@ const initialDictionary: DictionaryEntry[] = [
     abbreviation: 'ESA',
     fullTermEnglish: 'Endangered Species Act',
     translationRussian: 'Закон об исчезающих видах: Закон США, направленный на защиту исчезающих видов',
-    usageExample: 'ESA's Juice spacecraft launched to Jupiter and its moons',
+    usageExample: "ESA's Juice spacecraft launched to Jupiter and its moons",
     source: 'BBC Science Focus'
   },
   {
@@ -469,3 +469,4 @@ export const dictionaryService = {
   addEntry,
   getAllEntriesSorted
 };
+
