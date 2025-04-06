@@ -611,3 +611,505 @@ export const initialDictionary: DictionaryEntry[] = [
     abbreviation: 'FTSE',
     fullTermEnglish: 'Financial Times Stock Exchange',
     translationRussian: 'Файненшл таймс фондовая биржа: часто используется в контексте фондового индекса FTSE 100',
+  },
+  {
+    id: '81',
+    abbreviation: 'B2B',
+    fullTermEnglish: 'Business-to-Business',
+    translationRussian: 'Бизнес для бизнеса: Коммерческие взаимоотношения между компаниями',
+    usageExample: 'Our company focuses on B2B sales.',
+    source: 'Forbes'
+  },
+  {
+    id: '82',
+    abbreviation: 'TBD',
+    fullTermEnglish: 'To Be Determined',
+    translationRussian: 'Будет определено позднее: Используется, когда информация еще не доступна',
+    usageExample: 'The date of the meeting is TBD.',
+    source: 'The New York Times'
+  },
+  {
+    id: '83',
+    abbreviation: 'GP',
+    fullTermEnglish: 'General Practitioner',
+    translationRussian: 'Врач общей практики (терапевт): Врач, оказывающий первичную медицинскую помощь',
+    source: 'The Guardian'
+  },
+  {
+    id: '84',
+    abbreviation: 'A&E',
+    fullTermEnglish: 'Accident and Emergency',
+    translationRussian: 'Отделение неотложной помощи: Отделение больницы, оказывающее экстренную медицинскую помощь',
+    usageExample: 'The A&E department is very busy tonight.',
+    source: 'BBC'
+  },
+  {
+    id: '85',
+    abbreviation: 'HSE',
+    fullTermEnglish: 'Health and Safety Executive',
+    translationRussian: 'Управление по охране труда и технике безопасности: Британское ведомство, регулирующее вопросы охраны труда',
+    source: 'The Guardian'
+  },
+  {
+    id: '86',
+    abbreviation: 'MOT',
+    fullTermEnglish: 'Ministry of Transport',
+    translationRussian: 'Министерство транспорта (Великобритании): Сертификат технического осмотра транспортного средства',
+    source: 'The Telegraph'
+  },
+  {
+    id: '87',
+    abbreviation: 'ASBO',
+    fullTermEnglish: 'Anti-Social Behaviour Order',
+    translationRussian: 'Предписание о запрете антиобщественного поведения: Меры, принимаемые для борьбы с хулиганством',
+    usageExample: 'The court issued an ASBO to the individual.',
+    source: 'The Guardian'
+  },
+  {
+    id: '88',
+    abbreviation: 'WWII',
+    fullTermEnglish: 'World War II',
+    translationRussian: 'Вторая мировая война: Глобальный военный конфликт 1939-1945 годов',
+    source: 'The New York Times'
+  },
+  {
+    id: '89',
+    abbreviation: 'MEP',
+    fullTermEnglish: 'Member of the European Parliament',
+    translationRussian: 'Депутат Европейского парламента: Избранный представитель в Европейском парламенте',
+    source: 'The Guardian'
+  },
+  {
+    id: '90',
+    abbreviation: 'NGO',
+    fullTermEnglish: 'Non-Governmental Organization',
+    translationRussian: 'Неправительственная организация (НПО): Организация, не связанная с правительством',
+    source: 'The Independent'
+  },
+  {
+    id: '91',
+    abbreviation: 'WFH',
+    fullTermEnglish: 'Work From Home',
+    translationRussian: 'Работа из дома: Удаленный формат работы, ставший популярным после пандемии',
+    source: 'Forbes'
+  },
+  {
+    id: '92',
+    abbreviation: 'GB',
+    fullTermEnglish: 'Great Britain',
+    translationRussian: 'Великобритания: Может использоваться как синоним UK',
+    source: 'The Guardian'
+  },
+  {
+    id: '93',
+    abbreviation: 'MoD',
+    fullTermEnglish: 'Ministry of Defence',
+    translationRussian: 'Министерство обороны (Великобритания): Отвечает за оборону и вооруженные силы',
+    source: 'The Telegraph'
+  },
+  {
+    id: '94',
+    abbreviation: 'PMQs',
+    fullTermEnglish: "Prime Minister's Questions",
+    translationRussian: 'Вопросы премьер-министру: Еженедельная сессия в британском парламенте',
+    source: 'BBC'
+  },
+  {
+    id: '95',
+    abbreviation: 'VAT',
+    fullTermEnglish: 'Value Added Tax',
+    translationRussian: 'Налог на добавленную стоимость (НДС): Налог на товары и услуги',
+    source: 'The Financial Times'
+  },
+  {
+    id: '96',
+    abbreviation: 'PPE',
+    fullTermEnglish: 'Personal Protective Equipment',
+    translationRussian: 'Средства индивидуальной защиты (СИЗ): Защитное снаряжение',
+    source: 'The Guardian'
+  },
+  {
+    id: '97',
+    abbreviation: 'IJ',
+    fullTermEnglish: 'Investigative Journalism',
+    translationRussian: 'Расследовательская журналистика: Журналистика, занимающаяся глубоким исследованием',
+    source: 'Columbia Journalism Review'
+  },
+  {
+    id: '98',
+    abbreviation: 'SM',
+    fullTermEnglish: 'Social Media',
+    translationRussian: 'Социальные сети: Онлайн-платформы для общения и обмена контентом',
+    source: 'The New York Times'
+  },
+  {
+    id: '99',
+    abbreviation: 'TW',
+    fullTermEnglish: 'Twitter',
+    translationRussian: 'Твиттер: Популярная социальная сеть, платформа для микроблогов',
+    source: 'Forbes'
+  },
+  {
+    id: '100',
+    abbreviation: 'FB',
+    fullTermEnglish: 'Facebook',
+    translationRussian: 'Фейсбук: Крупнейшая социальная сеть в мире',
+    source: 'The Wall Street Journal'
+  },
+  {
+    id: '101',
+    abbreviation: 'MI',
+    fullTermEnglish: 'Misinformation',
+    translationRussian: 'Дезинформация: Недостоверная информация, распространяемая с целью ввести в заблуждение',
+    source: 'The Guardian'
+  },
+  {
+    id: '102',
+    abbreviation: 'FN',
+    fullTermEnglish: 'Fake News',
+    translationRussian: 'Фейковые новости: Ложные или сфабрикованные новости',
+    source: 'The Washington Post'
+  },
+  {
+    id: '103',
+    abbreviation: 'CJ',
+    fullTermEnglish: 'Citizen Journalism',
+    translationRussian: 'Гражданская журналистика: Журналистика, осуществляемая обычными гражданами',
+    source: 'The New York Times'
+  },
+  {
+    id: '104',
+    abbreviation: 'MMJ',
+    fullTermEnglish: 'Multimedia Journalism',
+    translationRussian: 'Мультимедийная журналистика: Журналистика, использующая различные форматы контента',
+    source: 'Columbia Journalism Review'
+  },
+  {
+    id: '105',
+    abbreviation: 'PD',
+    fullTermEnglish: 'Podcasts',
+    translationRussian: 'Подкасты: Серия аудио или видеофайлов, распространяемых через интернет',
+    source: 'The Guardian'
+  },
+  {
+    id: '106',
+    abbreviation: 'IG',
+    fullTermEnglish: 'Instagram',
+    translationRussian: 'Инстаграм: Популярная социальная сеть для обмена фото и видео',
+    source: 'The New York Times'
+  },
+  {
+    id: '107',
+    abbreviation: 'NO',
+    fullTermEnglish: 'News Organizations',
+    translationRussian: 'Новостные организации: Организации, занимающиеся производством и распространением новостей',
+    source: 'Columbia Journalism Review'
+  },
+  {
+    id: '108',
+    abbreviation: 'SB',
+    fullTermEnglish: 'Subscription-Based Services',
+    translationRussian: 'Сервисы по подписке: Сервисы, предоставляющие доступ к контенту на основе регулярной оплаты',
+    source: 'The Wall Street Journal'
+  },
+  {
+    id: '109',
+    abbreviation: 'ER',
+    fullTermEnglish: 'Exclusive Releases',
+    translationRussian: 'Эксклюзивные релизы: Материалы, публикуемые только одним источником',
+    source: 'Forbes'
+  },
+  {
+    id: '110',
+    abbreviation: 'OP',
+    fullTermEnglish: 'Original Programming',
+    translationRussian: 'Оригинальное программирование: Контент, созданный компанией для собственной платформы',
+    source: 'Variety'
+  },
+  {
+    id: '111',
+    abbreviation: 'SVOD',
+    fullTermEnglish: 'Subscription Video on Demand',
+    translationRussian: 'Видео по запросу по подписке: Сервис доступа к видеоконтенту по подписке',
+    source: 'The Hollywood Reporter'
+  },
+  {
+    id: '112',
+    abbreviation: 'CELEBS',
+    fullTermEnglish: 'Celebrities',
+    translationRussian: 'Знаменитости: Известные и популярные люди',
+    source: 'People Magazine'
+  },
+  {
+    id: '113',
+    abbreviation: 'Grammys',
+    fullTermEnglish: 'Grammy Awards',
+    translationRussian: 'Премия Грэмми: Престижная музыкальная награда',
+    source: 'Billboard'
+  },
+  {
+    id: '114',
+    abbreviation: 'NOMS',
+    fullTermEnglish: 'Nominations',
+    translationRussian: 'Номинации: Выдвижение кандидатов на награду или должность',
+    source: 'Variety'
+  },
+  {
+    id: '115',
+    abbreviation: 'IM',
+    fullTermEnglish: 'Influencer Marketing',
+    translationRussian: 'Маркетинг влияния: Маркетинг через лидеров мнений',
+    source: 'Forbes'
+  },
+  {
+    id: '116',
+    abbreviation: 'SMIs',
+    fullTermEnglish: 'Social Media Influencers',
+    translationRussian: 'Инфлюенсеры социальных сетей: Люди с большим числом подписчиков',
+    source: 'The New York Times'
+  },
+  {
+    id: '117',
+    abbreviation: 'TECH',
+    fullTermEnglish: 'Technology',
+    translationRussian: 'Технология: Применение научных знаний для практических целей',
+    source: 'Wired'
+  },
+  {
+    id: '118',
+    abbreviation: 'G7',
+    fullTermEnglish: 'Group of Seven',
+    translationRussian: 'Большая семерка: Группа семи наиболее развитых стран мира',
+    source: 'The Economist'
+  },
+  {
+    id: '119',
+    abbreviation: 'EP',
+    fullTermEnglish: 'European Parliament',
+    translationRussian: 'Европейский парламент: Законодательный орган Европейского Союза',
+    source: 'The Guardian'
+  },
+  {
+    id: '120',
+    abbreviation: 'ASEAN',
+    fullTermEnglish: 'Association of Southeast Asian Nations',
+    translationRussian: 'Ассоциация государств Юго-Восточной Азии: Региональная организация',
+    source: 'The Financial Times'
+  },
+  {
+    id: '121',
+    abbreviation: 'DJIA',
+    fullTermEnglish: 'Dow Jones Industrial Average',
+    translationRussian: 'Промышленный индекс Доу-Джонса: Один из важнейших фондовых индексов',
+    source: 'The Wall Street Journal'
+  },
+  {
+    id: '122',
+    abbreviation: 'FOMC',
+    fullTermEnglish: 'Federal Open Market Committee',
+    translationRussian: 'Федеральный комитет по операциям на открытом рынке: Комитет ФРС США',
+    source: 'Bloomberg'
+  },
+  {
+    id: '123',
+    abbreviation: 'IOC',
+    fullTermEnglish: 'International Olympic Committee',
+    translationRussian: 'Международный олимпийский комитет: Организатор Олимпийских игр',
+    source: 'Sports Illustrated'
+  },
+  {
+    id: '124',
+    abbreviation: 'NDCs',
+    fullTermEnglish: 'Nationally Determined Contributions',
+    translationRussian: 'Национально определяемые вклады: Планы стран по сокращению выбросов',
+    source: 'The Guardian'
+  },
+  {
+    id: '125',
+    abbreviation: 'BJP',
+    fullTermEnglish: 'Bharatiya Janata Party',
+    translationRussian: 'Бхаратия Джаната Парти: Одна из крупнейших политических партий в Индии',
+    source: 'The New York Times'
+  },
+  {
+    id: '126',
+    abbreviation: 'HIV',
+    fullTermEnglish: 'Human Immunodeficiency Virus',
+    translationRussian: 'Вирус иммунодефицита человека (ВИЧ): Вирус, вызывающий СПИД',
+    usageExample: 'When Silvia Petretti was diagnosed with HIV she thought her life had come to an end',
+    source: 'The Guardian'
+  },
+  {
+    id: '127',
+    abbreviation: 'COP26',
+    fullTermEnglish: 'Conference of Parties 26',
+    translationRussian: '26-я Конференция сторон: Климатическая конференция ООН',
+    usageExample: 'The man who ran the COP26 negotiations in Glasgow put it bluntly',
+    source: 'The Guardian'
+  },
+  {
+    id: '128',
+    abbreviation: 'U-turn',
+    fullTermEnglish: 'U-turn',
+    translationRussian: 'Разворот на 180 градусов: Резкое изменение политики или позиции',
+    usageExample: 'As well as all these limitations there was also a sharp U-turn on the language around fossil fuels',
+    source: 'The Guardian'
+  },
+  {
+    id: '129',
+    abbreviation: 'E-Learning',
+    fullTermEnglish: 'Electronic Learning',
+    translationRussian: 'Электронное обучение: Обучение с использованием электронных технологий',
+    usageExample: 'Back to Class, with Laptops in Hand Dakota Collegiate Ramps Up E-Learning',
+    source: 'The New York Times'
+  },
+  {
+    id: '130',
+    abbreviation: 'Brexit',
+    fullTermEnglish: 'Britain Exit',
+    translationRussian: 'Брекзит: Выход Великобритании из Европейского Союза',
+    source: 'The Economist'
+  },
+  {
+    id: '131',
+    abbreviation: 'Grexit',
+    fullTermEnglish: 'Greece Exit',
+    translationRussian: 'Грекзит: Гипотетический выход Греции из Еврозоны',
+    source: 'The Financial Times'
+  },
+  {
+    id: '132',
+    abbreviation: 'OPEC',
+    fullTermEnglish: 'Organization of the Petroleum Exporting Countries',
+    translationRussian: 'Организация стран-экспортеров нефти (ОПЕК): Международная организация',
+    source: 'Bloomberg'
+  },
+  {
+    id: '133',
+    abbreviation: 'INF',
+    fullTermEnglish: 'Intermediate-Range Nuclear Forces Treaty',
+    translationRussian: 'Договор о ликвидации ракет средней и меньшей дальности (РСМД)',
+    source: 'Foreign Policy'
+  },
+  {
+    id: '134',
+    abbreviation: 'START',
+    fullTermEnglish: 'Strategic Arms Reduction Treaty',
+    translationRussian: 'Договор о сокращении стратегических наступательных вооружений',
+    source: 'The New York Times'
+  },
+  {
+    id: '135',
+    abbreviation: 'US',
+    fullTermEnglish: 'United States',
+    translationRussian: 'Соединенные Штаты Америки',
+    source: 'The Washington Post'
+  },
+  {
+    id: '136',
+    abbreviation: 'AIDEA',
+    fullTermEnglish: 'Alaska Industrial Development and Export Authority',
+    translationRussian: 'Управление промышленного развития и экспорта Аляски',
+    source: 'Alaska State Website'
+  },
+  {
+    id: '137',
+    abbreviation: 'ANGDA',
+    fullTermEnglish: 'Alaska Natural Gas Development Authority',
+    translationRussian: 'Управление по развитию природного газа Аляски',
+    source: 'Alaska Business Magazine'
+  },
+  {
+    id: '138',
+    abbreviation: 'Eielson AFB',
+    fullTermEnglish: 'Eielson Air Force Base',
+    translationRussian: 'Военно-воздушная база Эйлсон: Военная база США на Аляске',
+    source: 'Military Times'
+  },
+  {
+    id: '139',
+    abbreviation: 'NPR-A',
+    fullTermEnglish: 'National Petroleum Reserve-Alaska',
+    translationRussian: 'Национальный нефтяной резерв Аляски: Территория, выделенная для добычи нефти',
+    usageExample: 'Debates continue over energy development versus environmental protection within the NPR-A',
+    source: 'Alaska Public Media'
+  },
+  {
+    id: '140',
+    abbreviation: 'OCS',
+    fullTermEnglish: 'Outer Continental Shelf',
+    translationRussian: 'Внешний континентальный шельф: Морское дно за пределами территориальных вод',
+    source: 'Bureau of Ocean Energy Management'
+  },
+  {
+    id: '141',
+    abbreviation: 'PETA',
+    fullTermEnglish: 'People for the Ethical Treatment of Animals',
+    translationRussian: 'Люди за этичное обращение с животными: Организация по защите прав животных',
+    source: 'The New York Times'
+  },
+  {
+    id: '142',
+    abbreviation: 'ASAP',
+    fullTermEnglish: 'As Soon As Possible',
+    translationRussian: 'Как можно скорее: Используется для обозначения срочности',
+    source: 'The Guardian'
+  },
+  {
+    id: '143',
+    abbreviation: 'AKA',
+    fullTermEnglish: 'Also Known As',
+    translationRussian: 'Также известен как: Используется при указании альтернативных имен',
+    source: 'The New York Times'
+  },
+  {
+    id: '144',
+    abbreviation: 'W.O.G.S.',
+    fullTermEnglish: 'Walthamstow Overseas Geographical Society',
+    translationRussian: 'Географическое общество Уолтемстоу: Местное сообщество',
+    usageExample: 'Brian Moore went on holidays with officers in an informal group called the Walthamstow Overseas Geographical Society',
+    source: 'The Guardian'
+  },
+  {
+    id: '145',
+    abbreviation: 'Oxbridge',
+    fullTermEnglish: 'Oxford and Cambridge',
+    translationRussian: 'Оксфорд и Кембридж: Два престижных университета Великобритании',
+    source: 'The Guardian'
+  },
+  {
+    id: '146',
+    abbreviation: 'BAFTA',
+    fullTermEnglish: 'British Academy Film Awards',
+    translationRussian: 'Премия Британской академии кино и телевизионных искусств',
+    source: 'BBC'
+  },
+  {
+    id: '147',
+    abbreviation: 'FA',
+    fullTermEnglish: 'Football Association',
+    translationRussian: 'Футбольная ассоциация: Руководящий орган английского футбола',
+    source: 'The Guardian'
+  },
+  {
+    id: '148',
+    abbreviation: 'VAR',
+    fullTermEnglish: 'Video Assistant Referee',
+    translationRussian: 'Видеопомощник арбитра: Система видеопомощи арбитрам в футболе',
+    source: 'Sports Illustrated'
+  },
+  {
+    id: '149',
+    abbreviation: 'RHS',
+    fullTermEnglish: 'Royal Horticultural Society',
+    translationRussian: 'Королевское садоводческое общество: Британская организация по садоводству',
+    source: 'The Telegraph'
+  },
+  {
+    id: '150',
+    abbreviation: 'DIY',
+    fullTermEnglish: 'Do It Yourself',
+    translationRussian: 'Сделай своими руками: Самостоятельное выполнение работ',
+    source: 'The Guardian'
+  }
+];

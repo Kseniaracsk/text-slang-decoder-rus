@@ -16,19 +16,12 @@ const AllEntriesList: React.FC<AllEntriesListProps> = ({ entries, onClose }) => 
     <div className="mb-10">
       <div className="flex justify-between items-center mb-4">
         <div>
-          <h2 className="text-xl font-semibold mb-1">All Abbreviations (Alphabetical)</h2>
-          <p className="text-sm text-muted-foreground">Все аббревиатуры (по алфавиту)</p>
+          <h2 className="text-xl font-semibold mb-1">Все аббревиатуры (по алфавиту)</h2>
+          <p className="text-sm text-muted-foreground">All Abbreviations (Alphabetical)</p>
         </div>
         <Button variant="outline" size="sm" onClick={onClose} className="flex items-center gap-1">
           <X className="h-4 w-4" />
-          Close
-        </Button>
-      </div>
-      
-      <div className="mb-4 flex justify-end">
-        <Button onClick={onClose} variant="secondary" className="flex items-center gap-1">
-          <X className="h-4 w-4" />
-          Закрыть список
+          Закрыть
         </Button>
       </div>
       
