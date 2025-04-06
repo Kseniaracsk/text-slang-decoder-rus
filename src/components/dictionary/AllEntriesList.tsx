@@ -24,10 +24,25 @@ const AllEntriesList: React.FC<AllEntriesListProps> = ({ entries, onClose }) => 
           Close
         </Button>
       </div>
+      
+      <div className="mb-4 flex justify-end">
+        <Button onClick={onClose} variant="secondary" className="flex items-center gap-1">
+          <X className="h-4 w-4" />
+          Закрыть список
+        </Button>
+      </div>
+      
       <div className="space-y-4">
         {entries.map(entry => (
           <EntryDetail key={entry.id} entry={entry} />
         ))}
+      </div>
+      
+      <div className="mt-6 flex justify-center">
+        <Button onClick={onClose} variant="outline" size="lg" className="flex items-center gap-1">
+          <X className="h-4 w-4" />
+          Закрыть полный список словаря
+        </Button>
       </div>
     </div>
   );
