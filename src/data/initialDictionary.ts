@@ -1112,4 +1112,111 @@ export const initialDictionary: DictionaryEntry[] = [
     translationRussian: 'Сделай своими руками: Самостоятельное выполнение работ',
     source: 'The Guardian'
   }
+  [
+  {
+    id: '151',
+    abbreviation: 'ECB',
+    fullTermEnglish: 'European Central Bank',
+    translationRussian: 'Европейский центральный банк (ЕЦБ): Центральный банк Еврозоны.',
+    source: null // Источник не указан в предоставленных данных
+  },
+  {
+    id: '152',
+    abbreviation: 'QE',
+    fullTermEnglish: 'Quantitative Easing',
+    translationRussian: 'Количественное смягчение: Мера монетарной политики, используемая центральными банками для стимулирования экономики.',
+    source: null // Источник не указан в предоставленных данных
+  },
+  {
+    id: '153',
+    abbreviation: 'IR35',
+    fullTermEnglish: 'Intermediaries Legislation',
+    translationRussian: 'Законодательство о посредниках (Великобритания): Налоговое законодательство, касающееся работы подрядчиков.',
+    source: null // Источник не указан в предоставленных данных
+  },
+  {
+    id: '154',
+    abbreviation: 'FCA',
+    fullTermEnglish: 'Financial Conduct Authority',
+    translationRussian: 'Управление по финансовому регулированию и надзору (Великобритания): Регулирующий орган для финансовых компаний.',
+    source: null // Источник не указан в предоставленных данных
+  },
+  {
+    id: '155',
+    abbreviation: 'GDPR',
+    fullTermEnglish: 'General Data Protection Regulation',
+    translationRussian: 'Общий регламент по защите данных (ЕС): Закон о защите персональных данных.',
+    source: null // Источник не указан в предоставленных данных
+  },
+  {
+    id: '156',
+    abbreviation: 'A-level',
+    fullTermEnglish: 'Advanced Level',
+    translationRussian: 'Продвинутый уровень (Великобритания): Экзамены, сдаваемые в конце средней школы.',
+    source: null // Источник не указан в предоставленных данных
+  },
+  {
+    id: '157',
+    abbreviation: 'Oxbridge',
+    fullTermEnglish: 'Oxford and Cambridge',
+    translationRussian: 'Оксфорд и Кембридж: Два престижных университета Великобритании.',
+    source: null // Источник не указан в предоставленных данных
+  },
+  {
+    id: '158',
+    abbreviation: 'Eton',
+    fullTermEnglish: 'Eton College',
+    translationRussian: 'Итонский колледж: Престижная частная школа для мальчиков в Великобритании.',
+    source: null // Источник не указан в предоставленных данных
+  },
+  {
+    id: '159',
+    abbreviation: 'BAFTA',
+    fullTermEnglish: 'British Academy Film Awards',
+    translationRussian: 'Премия Британской академии кино и телевизионных искусств: Британский аналог “Оскара”.',
+    source: null // Источник не указан в предоставленных данных
+  },
+  {
+    id: '160',
+    abbreviation: 'FA',
+    fullTermEnglish: 'Football Association',
+    translationRussian: 'Футбольная ассоциация (Англия): Руководящий орган английского футбола.',
+    source: null // Источник не указан в предоставленных данных
+  },
+  {
+    id: '161',
+    abbreviation: 'VAR',
+    fullTermEnglish: 'Video Assistant Referee',
+    translationRussian: 'Видеопомощник арбитра: Система видеопомощи арбитрам в футболе.',
+    source: null // Источник не указан в предоставленных данных
+  },
+  {
+    id: '162',
+    abbreviation: 'T20',
+    fullTermEnglish: 'Twenty20',
+    translationRussian: 'Твенти20: Формат крикета с матчами, ограниченными 20 оверами на команду.',
+    source: null // Источник не указан в предоставленных данных
+  },
+  {
+    id: '163',
+    abbreviation: 'RHS',
+    fullTermEnglish: 'Royal Horticultural Society',
+    translationRussian: 'Королевское садоводческое общество: Британская организация, занимающаяся садоводством.',
+    source: null // Источник не указан в предоставленных данных
+  },
+  {
+    id: '164',
+    abbreviation: 'WI',
+    fullTermEnglish: 'Women’s Institute',
+    translationRussian: 'Женский институт: Британская общественная организация для женщин.',
+    source: null // Источник не указан в предоставленных данных
+  },
+  {
+    id: '165',
+    abbreviation: 'WFH',
+    fullTermEnglish: 'Work From Home',
+    translationRussian: 'Работа из дома: Формат работы, ставший особенно популярным после пандемии.',
+    source: null // Источник не указан в предоставленных данных
+  }
+]
 ];
