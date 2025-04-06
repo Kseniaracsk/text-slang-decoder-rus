@@ -110,6 +110,11 @@ export const useDictionary = () => {
     setSelectedEntry(null);
   };
 
+  // Close all entries view
+  const handleCloseAllEntries = () => {
+    setShowAllEntries(false);
+  };
+
   // Get all entries sorted alphabetically
   const sortedEntries = dictionaryService.getAllEntriesSorted(dictionary);
 
@@ -120,6 +125,7 @@ export const useDictionary = () => {
     searchResults,
     selectedEntry,
     showAllEntries,
+    setShowAllEntries,
     newAbbreviation,
     setNewAbbreviation,
     newFullTerm,
@@ -133,6 +139,7 @@ export const useDictionary = () => {
     handleSearch,
     handleAddEntry,
     handleShowAllEntries,
+    handleCloseAllEntries,
     sortedEntries
   };
 };

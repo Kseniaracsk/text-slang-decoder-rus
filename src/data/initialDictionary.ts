@@ -473,5 +473,225 @@ export const initialDictionary: DictionaryEntry[] = [
     fullTermEnglish: 'Investigative Journalism',
     translationRussian: 'Расследовательская журналистика: Журналистика, занимающаяся глубоким исследованием и разоблачением общественно значимых проблем',
     source: 'Columbia Journalism Review'
+  },
+  // New entries from the provided list
+  {
+    id: '61',
+    abbreviation: 'ADN',
+    fullTermEnglish: 'Anchorage Daily News',
+    translationRussian: 'Ежедневные новости Анкориджа: Крупнейшая газета Аляски, издающаяся в Анкоридже',
+    source: 'The Guardian'
+  },
+  {
+    id: '62',
+    abbreviation: 'SM',
+    fullTermEnglish: 'Social Media',
+    translationRussian: 'Социальные сети: Онлайн-платформы, где пользователи могут общаться, делиться контентом и создавать сообщества',
+    source: 'The New York Times'
+  },
+  {
+    id: '63',
+    abbreviation: 'TW',
+    fullTermEnglish: 'Twitter',
+    translationRussian: 'Твиттер: Популярная социальная сеть, платформа для микроблогов',
+    source: 'Forbes'
+  },
+  {
+    id: '64',
+    abbreviation: 'FB',
+    fullTermEnglish: 'Facebook',
+    translationRussian: 'Фейсбук: Крупнейшая социальная сеть в мире',
+    source: 'The Wall Street Journal'
+  },
+  {
+    id: '65',
+    abbreviation: 'MI',
+    fullTermEnglish: 'Misinformation',
+    translationRussian: 'Дезинформация: Недостоверная или ложная информация, распространяемая с целью ввести в заблуждение',
+    source: 'The Guardian'
+  },
+  {
+    id: '66',
+    abbreviation: 'FN',
+    fullTermEnglish: 'Fake News',
+    translationRussian: 'Фейковые новости: Ложные или сфабрикованные новости, часто распространяемые в социальных сетях',
+    source: 'The Washington Post'
+  },
+  {
+    id: '67',
+    abbreviation: 'CJ',
+    fullTermEnglish: 'Citizen Journalism',
+    translationRussian: 'Гражданская журналистика: Журналистика, осуществляемая обычными гражданами, не являющимися профессиональными журналистами',
+    source: 'The New York Times'
+  },
+  {
+    id: '68',
+    abbreviation: 'MMJ',
+    fullTermEnglish: 'Multimedia Journalism',
+    translationRussian: 'Мультимедийная журналистика: Журналистика, использующая различные форматы контента, такие как текст, фото, видео, аудио',
+    source: 'Columbia Journalism Review'
+  },
+  {
+    id: '69',
+    abbreviation: 'PD',
+    fullTermEnglish: 'Podcasts',
+    translationRussian: 'Подкасты: Серия аудио- или видеофайлов, распространяемых через интернет для прослушивания или просмотра',
+    source: 'The Guardian'
+  },
+  {
+    id: '70',
+    abbreviation: 'IG',
+    fullTermEnglish: 'Instagram',
+    translationRussian: 'Инстаграм: Популярная социальная сеть, платформа для обмена фотографиями и видео',
+    source: 'The New York Times'
+  },
+  {
+    id: '71',
+    abbreviation: 'AGIA',
+    fullTermEnglish: 'Alaska Gas Line Inducement Act',
+    translationRussian: 'Закон о стимулировании строительства газопровода Аляски: Закон штата, направленный на стимулирование развития газовой инфраструктуры',
+    source: 'The Washington Post'
+  },
+  {
+    id: '72',
+    abbreviation: 'ANMC',
+    fullTermEnglish: 'Alaska Native Medical Center',
+    translationRussian: 'Медицинский центр коренных жителей Аляски: Медицинское учреждение, обслуживающее коренное население Аляски',
+    source: 'The New York Times'
+  },
+  {
+    id: '73',
+    abbreviation: 'AP',
+    fullTermEnglish: 'Associated Press',
+    translationRussian: 'Ассошиэйтед Пресс: Информационное агентство',
+    usageExample: 'The A.P. combines data feeds from state and county websites',
+    source: 'The Guardian'
+  },
+  {
+    id: '74',
+    abbreviation: 'APD',
+    fullTermEnglish: 'Anchorage Police Department',
+    translationRussian: 'Полицейское управление Анкориджа: Муниципальное полицейское управление в городе Анкоридж',
+    usageExample: 'Matt Berman, a founding principal of the New York-based architecture firm Workshop/APD',
+    source: 'The New York Times'
+  },
+  {
+    id: '75',
+    abbreviation: 'UK',
+    fullTermEnglish: 'United Kingdom',
+    translationRussian: 'Соединенное Королевство: Великобритания',
+    source: 'The Guardian'
+  },
+  {
+    id: '76',
+    abbreviation: 'PM',
+    fullTermEnglish: 'Prime Minister',
+    translationRussian: 'Премьер-министр: Глава правительства',
+    source: 'The Telegraph'
+  },
+  {
+    id: '77',
+    abbreviation: 'MP',
+    fullTermEnglish: 'Member of Parliament',
+    translationRussian: 'Член парламента: Депутат парламента',
+    source: 'The Guardian'
+  },
+  {
+    id: '78',
+    abbreviation: 'UN',
+    fullTermEnglish: 'United Nations',
+    translationRussian: 'ООН: Организация Объединенных Наций',
+    source: 'The New York Times'
+  },
+  {
+    id: '79',
+    abbreviation: 'GDP',
+    fullTermEnglish: 'Gross Domestic Product',
+    translationRussian: 'ВВП: Валовой внутренний продукт',
+    source: 'The Economist'
+  },
+  {
+    id: '80',
+    abbreviation: 'FTSE',
+    fullTermEnglish: 'Financial Times Stock Exchange',
+    translationRussian: 'Файненшл таймс фондовая биржа: часто и��пользуется в контексте фондового индекса FTSE 100',
+    source: 'Financial Times'
+  },
+  {
+    id: '81',
+    abbreviation: 'PaaS',
+    fullTermEnglish: 'Platform as a Service',
+    translationRussian: 'Платформа как услуга: Предоставление вычислительной платформы в аренду',
+    usageExample: 'PaaS provides developers with the tools to build and deploy applications without managing the underlying infrastructure',
+    source: 'TechCrunch'
+  },
+  {
+    id: '82',
+    abbreviation: 'ARR',
+    fullTermEnglish: 'Annual Recurring Revenue',
+    translationRussian: 'Годовая повторяющаяся выручка: Показатель, используемый SaaS-компаниями для оценки годового дохода от подписок',
+    usageExample: 'ARR is a key metric for subscription-based businesses',
+    source: 'Forbes'
+  },
+  {
+    id: '83',
+    abbreviation: 'EBITDA',
+    fullTermEnglish: 'Earnings Before Interest, Taxes, Depreciation, and Amortization',
+    translationRussian: 'Прибыль до вычета процентов, налогов и амортизации: Показатель прибыльности компании',
+    usageExample: 'EBITDA is often used to assess a company\'s operating performance',
+    source: 'The Wall Street Journal'
+  },
+  {
+    id: '84',
+    abbreviation: 'B2C',
+    fullTermEnglish: 'Business-to-Consumer',
+    translationRussian: 'Бизнес для потребителя: Компании, продающие товары и услуги конечным потребителям',
+    source: 'Harvard Business Review'
+  },
+  {
+    id: '85',
+    abbreviation: 'PR',
+    fullTermEnglish: 'Public Relations',
+    translationRussian: 'Связи с общественностью: Деятельность по формированию положительного имиджа компании',
+    usageExample: 'The company hired a PR firm to improve its image',
+    source: 'The Guardian'
+  },
+  {
+    id: '86',
+    abbreviation: 'SEO',
+    fullTermEnglish: 'Search Engine Optimization',
+    translationRussian: 'Комплекс мер, направленных на повышение видимости сайта в результатах поисковых систем по определённым запросам',
+    usageExample: 'Effective SEO is essential for driving organic traffic to your website',
+    source: 'Moz Blog'
+  },
+  {
+    id: '87',
+    abbreviation: 'KPI',
+    fullTermEnglish: 'Key Performance Indicators',
+    translationRussian: 'Ключевые показатели эффективности: Показатели, помогающие оценить достижение целей в бизнесе, управлении проектами или личной эффективности',
+    usageExample: 'We track KPIs to measure our progress towards our business goals',
+    source: 'Harvard Business Review'
+  },
+  {
+    id: '88',
+    abbreviation: 'IRL',
+    fullTermEnglish: 'In Real Life',
+    translationRussian: 'В реальной жизни: Аббревиатура, используемая в онлайн-общении для обозначения ситуаций или взаимодействий в реальной жизни, в отличие от виртуального мира',
+    source: 'The Guardian'
+  },
+  {
+    id: '89',
+    abbreviation: 'TBD',
+    fullTermEnglish: 'To Be Determined',
+    translationRussian: 'Будет определено: Аббревиатура, которая означает «будет определено» или «подлежит определению»',
+    usageExample: 'The date of the meeting is TBD',
+    source: 'The New York Times'
+  },
+  {
+    id: '90',
+    abbreviation: 'GP',
+    fullTermEnglish: 'General Practitioner',
+    translationRussian: 'Врач общей практики (т��рапевт)',
+    source: 'The Guardian'
   }
 ];

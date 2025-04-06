@@ -13,6 +13,7 @@ const Dictionary: React.FC = () => {
     setSearchQuery,
     selectedEntry,
     showAllEntries,
+    setShowAllEntries,
     newAbbreviation,
     setNewAbbreviation,
     newFullTerm,
@@ -26,6 +27,7 @@ const Dictionary: React.FC = () => {
     handleSearch,
     handleAddEntry,
     handleShowAllEntries,
+    handleCloseAllEntries,
     sortedEntries
   } = useDictionary();
 
@@ -51,7 +53,7 @@ const Dictionary: React.FC = () => {
       )}
       
       {/* Display All Entries Section */}
-      {showAllEntries && <AllEntriesList entries={sortedEntries} />}
+      {showAllEntries && <AllEntriesList entries={sortedEntries} onClose={handleCloseAllEntries} />}
       
       {/* Add New Entry Section */}
       <AddEntryForm 

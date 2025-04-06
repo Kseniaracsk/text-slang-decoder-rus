@@ -4,7 +4,6 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Search } from 'lucide-react';
-import { DictionaryEntry } from '@/types/dictionary.types';
 
 interface SearchSectionProps {
   searchQuery: string;
@@ -43,16 +42,18 @@ const SearchSection: React.FC<SearchSectionProps> = ({
         </Button>
       </div>
       
-      <div className="mt-4 flex justify-center">
-        <Button 
-          onClick={handleShowAllEntries} 
-          variant="outline"
-          className="mt-4"
-        >
-          View Full Dictionary
-          <svg xmlns="http://www.w3.org/2000/svg" className="ml-2 h-4 w-4" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-        </Button>
-        <p className="text-xs text-muted-foreground mt-1 absolute -bottom-5">Посмотреть весь словарь</p>
+      <div className="flex justify-center">
+        <div className="relative">
+          <Button 
+            onClick={handleShowAllEntries} 
+            variant="outline"
+            className="mt-2"
+          >
+            View Full Dictionary
+            <svg xmlns="http://www.w3.org/2000/svg" className="ml-2 h-4 w-4" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </Button>
+          <p className="text-xs text-muted-foreground mt-1 text-center">Посмотреть весь словарь</p>
+        </div>
       </div>
     </div>
   );
