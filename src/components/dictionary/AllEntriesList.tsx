@@ -39,7 +39,7 @@ const AllEntriesList: React.FC<AllEntriesListProps> = ({ entries, onClose }) => 
       </div>
       
       <div className="mt-6 flex justify-center">
-        <Button onClick={onClose} variant="outline" size="lg" className="flex items-center gap-1">
+        <Button onClick={onClose} variant="outline" size="lg" className="flex items-center gap-1 w-full md:w-auto">
           <X className="h-4 w-4" />
           Закрыть полный список словаря
         </Button>
