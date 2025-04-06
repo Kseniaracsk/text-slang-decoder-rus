@@ -1217,6 +1217,98 @@ export const initialDictionary: DictionaryEntry[] = [
     fullTermEnglish: 'Work From Home',
     translationRussian: 'Работа из дома: Формат работы, ставший особенно популярным после пандемии.',
     source: null // Источник не указан в предоставленных данных
+  },
+  {
+    id: '166',
+    abbreviation: 'PETA',
+    fullTermEnglish: 'People for the Ethical Treatment of Animals',
+    translationRussian: 'Люди за этичное обращение с животными: Организация по защите прав животных.',
+    source: null
+  },
+  {
+    id: '167',
+    abbreviation: 'ASAP',
+    fullTermEnglish: 'As Soon As Possible',
+    translationRussian: 'Как можно скорее:',
+    source: null
+  },
+  {
+    id: '168',
+    abbreviation: 'AKA',
+    fullTermEnglish: 'Also Known As',
+    translationRussian: 'Также известен как:',
+    source: null
+  },
+  {
+    id: '169',
+    abbreviation: 'W.O.G.S.',
+    fullTermEnglish: 'Walthamstow Overseas Geographical Society',
+    translationRussian: 'Географическое общество Уолтемстоу: Вероятно, местный клуб или сообщество любителей географии.',
+    source: "Пример: “…Brian Moore … went on holidays with officers in an informal group called the Walthamstow Overseas Geographical Society. The group was often referred to by its initials, W.O.G.S.”"
+  },
+  {
+    id: '170',
+    abbreviation: 'CFP-10',
+    fullTermEnglish: '10-kDa culture filtrate protein',
+    translationRussian: 'Белок культурального фильтрата 10 кДа: Белок, секретируемый Mycobacterium tuberculosis. “kDa” (килодальтон) - единица измерения молекулярной массы.',
+    source: "The CFP-10 (10-kDa culture filtrate protein) and ESAT-6 (6-kDa early secretory antigen of T-cells) are secreted in abundance by Mycobacterium tuberculosis and are frequently recognized by T cells from infected people"
+  },
+  {
+    id: '171',
+    abbreviation: 'ESAT-6',
+    fullTermEnglish: '6-kDa early secretory antigen of T-cells',
+    translationRussian: 'Ранний секреторный антиген Т-клеток 6 кДа: Белок, секретируемый Mycobacterium tuberculosis. “kDa” (килодальтон) - единица измерения молекулярной массы.',
+    source: "Пример: The CFP-10 (10-kDa culture filtrate protein) and ESAT-6 (6-kDa early secretory antigen of T-cells) are secreted in abundance by Mycobacterium tuberculosis and are frequently recognized by T cells from infected people"
+  },
+  {
+    id: '172',
+    abbreviation: 'HIV',
+    fullTermEnglish: 'human immunodeficiency virus',
+    translationRussian: 'Вирус иммунодефицита человека (ВИЧ): Вирус, вызывающий СПИД.',
+    source: "Пример: When Silvia Petretti was diagnosed with HIV she thought her life had come to an end"
+  },
+  {
+    id: '173',
+    abbreviation: 'COP27/COP26',
+    fullTermEnglish: 'Conference of Parties',
+    translationRussian: 'Конференция сторон: Ежегодная конференция ООН по вопросам изменения климата. Номер обозначает порядковый номер конференции.',
+    source: "Пример: Climate change: Five key takeaways from COP27 The man who ran the COP26 negotiations in Glasgow put it bluntly"
+  },
+  {
+    id: '174',
+    abbreviation: 'U-turn',
+    fullTermEnglish: 'U-turn',
+    translationRussian: 'Разворот на 180 градусов: Переносное значение - резкое изменение политики или позиции. Буква U напоминает форму разворота.',
+    source: "Пример: As well as all these limitations there was also a sharp U-turn on the language around fossil fuels"
+  },
+  {
+    id: '175',
+    abbreviation: 'E-Learning',
+    fullTermEnglish: 'E-Learning',
+    translationRussian: 'Электронное обучение: Обучение с использованием электронных средств и технологий.',
+    source: "Пример: Back to Class, with Laptops in Hand Dakota Collegiate Ramps Up E-Learning"
+  },
+  {
+    id: '176',
+    abbreviation: 'ALICE',
+    fullTermEnglish: 'Artificial Linguistic Internet Computer Entity',
+    translationRussian: 'Искусственная лингвистическая интернет-компьютерная сущность: Чат-бот, программа, имитирующая разговор с человеком.',
+    source: "Пример: ALICE is an online robot that can have a conversation with you in a chat format"
+  },
+  {
+    id: '177',
+    abbreviation: 'Flo',
+    fullTermEnglish: 'Florida',
+    translationRussian: 'Флорида: Штат в США.',
+    source: null
+  },
+  {
+    id: '178',
+    abbreviation: 'Golf',
+    fullTermEnglish: 'Gentlemen Only, Ladies Forbidden',
+    translationRussian: 'Только для джентльменов, дамам вход воспрещен: Традиционное правило некоторых гольф-клубов, вызывающее споры.',
+    source: "Пример: Carly Booth is not allowed to be a member of the Royal and Ancient Golf Club:‘Gentlemen Only, Ladies Forbidden’ – isn’t that how it goes"
   }
+]
 ]
 ];
