@@ -268,7 +268,7 @@ export const initialDictionary: DictionaryEntry[] = [
     id: '34',
     abbreviation: 'ECB',
     fullTermEnglish: 'European Central Bank',
-    translationRussian: 'Европейский центральный банк (ЕЦБ): Центральный банк Еврозоны',
+    translationRussian: 'Европейский центральный ��анк (ЕЦБ): Центральный банк Еврозоны',
     source: 'The Financial Times'
   },
   {
@@ -611,6 +611,7 @@ export const initialDictionary: DictionaryEntry[] = [
     abbreviation: 'FTSE',
     fullTermEnglish: 'Financial Times Stock Exchange',
     translationRussian: 'Файненшл таймс фондовая биржа: часто используется в контексте фондового индекса FTSE 100',
+    source: 'The Financial Times'
   },
   {
     id: '81',
@@ -711,7 +712,7 @@ export const initialDictionary: DictionaryEntry[] = [
     id: '94',
     abbreviation: 'PMQs',
     fullTermEnglish: "Prime Minister's Questions",
-    translationRussian: 'Вопросы премьер-министру: Еженедельная сессия в британском парламенте',
+    translationRussian: 'Вопросы премьер-министр��: Еженедельная сессия в британском парламенте',
     source: 'BBC'
   },
   {
@@ -914,7 +915,7 @@ export const initialDictionary: DictionaryEntry[] = [
     id: '123',
     abbreviation: 'IOC',
     fullTermEnglish: 'International Olympic Committee',
-    translationRussian: 'Международный олимпийский комитет: Организатор Олимпийских игр',
+    translationRussian: 'Международный олимпийский комитет: Организатор Олимпийских ��гр',
     source: 'Sports Illustrated'
   },
   {
@@ -1206,7 +1207,7 @@ export const initialDictionary: DictionaryEntry[] = [
   {
     id: '164',
     abbreviation: 'WI',
-    fullTermEnglish: 'Women's Institute',
+    fullTermEnglish: 'Women\'s Institute',
     translationRussian: 'Женский институт: Британская общественная организация для женщин.',
     source: 'BBC'
   },
@@ -1249,7 +1250,7 @@ export const initialDictionary: DictionaryEntry[] = [
     id: '170',
     abbreviation: 'CFP-10',
     fullTermEnglish: '10-kDa culture filtrate protein',
-    translationRussian: 'Белок культурального фильтрата 10 кДа: Белок, секретируемый Mycobacterium tuberculosis. "kDa" (килодальтон) - единица измерения молекулярной массы.',
+    translationRussian: 'Белок культурного фильтрата 10 кДа: Белок, секретируемый Mycobacterium tuberculosis. "kDa" (килодальтон) - единица измерения молекулярной массы.',
     source: 'Science Journal'
   },
   {
