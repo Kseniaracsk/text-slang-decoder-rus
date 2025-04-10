@@ -13,7 +13,10 @@ export const searchEntries = (query: string, dictionary: DictionaryEntry[]): Dic
 
 // Get all entries sorted alphabetically
 export const getAllEntriesSorted = (dictionary: DictionaryEntry[]): DictionaryEntry[] => {
-  return [...dictionary].sort((a, b) => 
+  // Filter out any null or undefined entries first
+  const validEntries = dictionary.filter(entry => entry !== null && entry !== undefined);
+  
+  return validEntries.sort((a, b) => 
     a.abbreviation.localeCompare(b.abbreviation)
   );
 };

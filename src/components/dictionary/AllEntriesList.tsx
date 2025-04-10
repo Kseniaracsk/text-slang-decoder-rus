@@ -11,7 +11,10 @@ interface AllEntriesListProps {
   onClose: () => void;
 }
 
-const AllEntriesList: React.FC<AllEntriesListProps> = ({ entries, onClose }) => {
+const AllEntriesList: React.FC<AllEntriesListProps> = ({ entries = [], onClose }) => {
+  // Safety check - ensure entries is an array
+  const validEntries = Array.isArray(entries) ? entries : [];
+  
   return (
     <div className="mb-10">
       <div className="flex justify-between items-center mb-4">
@@ -25,11 +28,18 @@ const AllEntriesList: React.FC<AllEntriesListProps> = ({ entries, onClose }) => 
         </Button>
       </div>
       
-      <div className="space-y-4">
-        {entries.map(entry => (
-          <EntryDetail key={entry.id} entry={entry} />
-        ))}
-      </div>
+      {validEntries.length === 0 ? (
+        <div className="text-center p-4 border rounded-md">
+          <p className="text-muted-foreground">Словарь пуст. Добавьте новые аббревиатуры.</p>
+          <p className="text-xs text-muted-foreground">The dictionary is empty. Add some abbreviations.</p>
+        </div>
+      ) : (
+        <div className="space-y-4">
+          {validEntries.map(entry => 
+            entry ? <EntryDetail key={entry.id} entry={entry} /> : null
+          )}
+        </div>
+      )}
       
       <div className="mt-6 flex justify-center">
         <Button onClick={onClose} variant="outline" size="lg" className="flex items-center gap-1 w-full md:w-auto">

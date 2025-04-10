@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { useToast } from '@/hooks/use-toast';
 import { dictionaryService } from '@/services/dictionaryService';
@@ -21,9 +20,19 @@ export const useDictionary = () => {
 
   // Load dictionary on hook initialization
   useEffect(() => {
-    const loadedDictionary = dictionaryService.loadDictionary();
-    setDictionary(loadedDictionary);
-  }, []);
+    try {
+      const loadedDictionary = dictionaryService.loadDictionary();
+      setDictionary(Array.isArray(loadedDictionary) ? loadedDictionary : []);
+    } catch (error) {
+      console.error("Error loading dictionary:", error);
+      setDictionary([]);
+      toast({
+        title: "Error Loading Dictionary",
+        description: "There was a problem loading the dictionary data. Please try again.",
+        variant: "destructive",
+      });
+    }
+  }, [toast]);
 
   // Handle search functionality
   const handleSearch = () => {
@@ -115,8 +124,10 @@ export const useDictionary = () => {
     setShowAllEntries(false);
   };
 
-  // Get all entries sorted alphabetically
-  const sortedEntries = dictionaryService.getAllEntriesSorted(dictionary);
+  // Get all entries sorted alphabetically, with safety check
+  const sortedEntries = dictionary.length > 0 
+    ? dictionaryService.getAllEntriesSorted(dictionary) 
+    : [];
 
   return {
     dictionary,
