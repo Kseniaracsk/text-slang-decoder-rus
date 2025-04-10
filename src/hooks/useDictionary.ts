@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from 'react';
 import { useToast } from '@/hooks/use-toast';
 import { dictionaryService } from '@/services/dictionaryService';
@@ -21,8 +22,24 @@ export const useDictionary = () => {
   // Load dictionary on hook initialization
   useEffect(() => {
     try {
-      const loadedDictionary = dictionaryService.loadDictionary();
-      setDictionary(Array.isArray(loadedDictionary) ? loadedDictionary : []);
+      let loadedDictionary = dictionaryService.loadDictionary();
+      
+      // Ensure we have a valid array
+      if (!Array.isArray(loadedDictionary)) {
+        console.error("Loaded dictionary is not an array:", loadedDictionary);
+        loadedDictionary = [];
+      }
+      
+      // Filter out any invalid entries
+      const validDictionary = loadedDictionary.filter(entry => 
+        entry && typeof entry === 'object' && entry.abbreviation
+      );
+      
+      if (validDictionary.length < loadedDictionary.length) {
+        console.warn(`Filtered out ${loadedDictionary.length - validDictionary.length} invalid entries`);
+      }
+      
+      setDictionary(validDictionary);
     } catch (error) {
       console.error("Error loading dictionary:", error);
       setDictionary([]);
@@ -124,10 +141,18 @@ export const useDictionary = () => {
     setShowAllEntries(false);
   };
 
-  // Get all entries sorted alphabetically, with safety check
-  const sortedEntries = dictionary.length > 0 
-    ? dictionaryService.getAllEntriesSorted(dictionary) 
-    : [];
+  // Get all entries sorted alphabetically, with additional safety checks
+  const sortedEntries = (() => {
+    if (!dictionary || !Array.isArray(dictionary) || dictionary.length === 0) {
+      return [];
+    }
+    try {
+      return dictionaryService.getAllEntriesSorted(dictionary);
+    } catch (error) {
+      console.error("Error sorting entries:", error);
+      return [];
+    }
+  })();
 
   return {
     dictionary,

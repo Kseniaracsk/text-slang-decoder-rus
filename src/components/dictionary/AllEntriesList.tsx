@@ -12,8 +12,10 @@ interface AllEntriesListProps {
 }
 
 const AllEntriesList: React.FC<AllEntriesListProps> = ({ entries = [], onClose }) => {
-  // Safety check - ensure entries is an array
-  const validEntries = Array.isArray(entries) ? entries : [];
+  // Safety check - ensure entries is a valid array and filter out invalid entries
+  const validEntries = Array.isArray(entries) 
+    ? entries.filter(entry => entry && typeof entry === 'object' && entry.abbreviation)
+    : [];
   
   return (
     <div className="mb-10">
@@ -35,9 +37,9 @@ const AllEntriesList: React.FC<AllEntriesListProps> = ({ entries = [], onClose }
         </div>
       ) : (
         <div className="space-y-4">
-          {validEntries.map(entry => 
-            entry ? <EntryDetail key={entry.id} entry={entry} /> : null
-          )}
+          {validEntries.map(entry => (
+            <EntryDetail key={entry.id} entry={entry} />
+          ))}
         </div>
       )}
       
