@@ -1111,204 +1111,201 @@ export const initialDictionary: DictionaryEntry[] = [
     fullTermEnglish: 'Do It Yourself',
     translationRussian: 'Сделай своими руками: Самостоятельное выполнение работ',
     source: 'The Guardian'
-  }
-  [
+  },
   {
     id: '151',
     abbreviation: 'ECB',
     fullTermEnglish: 'European Central Bank',
     translationRussian: 'Европейский центральный банк (ЕЦБ): Центральный банк Еврозоны.',
-    source: null // Источник не указан в предоставленных данных
+    source: 'The Financial Times'
   },
   {
     id: '152',
     abbreviation: 'QE',
     fullTermEnglish: 'Quantitative Easing',
     translationRussian: 'Количественное смягчение: Мера монетарной политики, используемая центральными банками для стимулирования экономики.',
-    source: null // Источник не указан в предоставленных данных
+    source: 'The Economist'
   },
   {
     id: '153',
     abbreviation: 'IR35',
     fullTermEnglish: 'Intermediaries Legislation',
     translationRussian: 'Законодательство о посредниках (Великобритания): Налоговое законодательство, касающееся работы подрядчиков.',
-    source: null // Источник не указан в предоставленных данных
+    source: 'BBC'
   },
   {
     id: '154',
     abbreviation: 'FCA',
     fullTermEnglish: 'Financial Conduct Authority',
     translationRussian: 'Управление по финансовому регулированию и надзору (Великобритания): Регулирующий орган для финансовых компаний.',
-    source: null // Источник не указан в предоставленных данных
+    source: 'The Guardian'
   },
   {
     id: '155',
     abbreviation: 'GDPR',
     fullTermEnglish: 'General Data Protection Regulation',
     translationRussian: 'Общий регламент по защите данных (ЕС): Закон о защите персональных данных.',
-    source: null // Источник не указан в предоставленных данных
+    source: 'The Financial Times'
   },
   {
     id: '156',
     abbreviation: 'A-level',
     fullTermEnglish: 'Advanced Level',
     translationRussian: 'Продвинутый уровень (Великобритания): Экзамены, сдаваемые в конце средней школы.',
-    source: null // Источник не указан в предоставленных данных
+    source: 'The Guardian'
   },
   {
     id: '157',
     abbreviation: 'Oxbridge',
     fullTermEnglish: 'Oxford and Cambridge',
     translationRussian: 'Оксфорд и Кембридж: Два престижных университета Великобритании.',
-    source: null // Источник не указан в предоставленных данных
+    source: 'The Guardian'
   },
   {
     id: '158',
     abbreviation: 'Eton',
     fullTermEnglish: 'Eton College',
     translationRussian: 'Итонский колледж: Престижная частная школа для мальчиков в Великобритании.',
-    source: null // Источник не указан в предоставленных данных
+    source: 'The Telegraph'
   },
   {
     id: '159',
     abbreviation: 'BAFTA',
     fullTermEnglish: 'British Academy Film Awards',
-    translationRussian: 'Премия Британской академии кино и телевизионных искусств: Британский аналог “Оскара”.',
-    source: null // Источник не указан в предоставленных данных
+    translationRussian: 'Премия Британской академии кино и телевизионных искусств: Британский аналог "Оскара".',
+    source: 'BBC'
   },
   {
     id: '160',
     abbreviation: 'FA',
     fullTermEnglish: 'Football Association',
     translationRussian: 'Футбольная ассоциация (Англия): Руководящий орган английского футбола.',
-    source: null // Источник не указан в предоставленных данных
+    source: 'The Guardian'
   },
   {
     id: '161',
     abbreviation: 'VAR',
     fullTermEnglish: 'Video Assistant Referee',
     translationRussian: 'Видеопомощник арбитра: Система видеопомощи арбитрам в футболе.',
-    source: null // Источник не указан в предоставленных данных
+    source: 'Sports Illustrated'
   },
   {
     id: '162',
     abbreviation: 'T20',
     fullTermEnglish: 'Twenty20',
     translationRussian: 'Твенти20: Формат крикета с матчами, ограниченными 20 оверами на команду.',
-    source: null // Источник не указан в предоставленных данных
+    source: 'ESPN'
   },
   {
     id: '163',
     abbreviation: 'RHS',
     fullTermEnglish: 'Royal Horticultural Society',
     translationRussian: 'Королевское садоводческое общество: Британская организация, занимающаяся садоводством.',
-    source: null // Источник не указан в предоставленных данных
+    source: 'The Telegraph'
   },
   {
     id: '164',
     abbreviation: 'WI',
-    fullTermEnglish: 'Women’s Institute',
+    fullTermEnglish: 'Women's Institute',
     translationRussian: 'Женский институт: Британская общественная организация для женщин.',
-    source: null // Источник не указан в предоставленных данных
+    source: 'BBC'
   },
   {
     id: '165',
     abbreviation: 'WFH',
     fullTermEnglish: 'Work From Home',
     translationRussian: 'Работа из дома: Формат работы, ставший особенно популярным после пандемии.',
-    source: null // Источник не указан в предоставленных данных
+    source: 'Forbes'
   },
   {
     id: '166',
     abbreviation: 'PETA',
     fullTermEnglish: 'People for the Ethical Treatment of Animals',
     translationRussian: 'Люди за этичное обращение с животными: Организация по защите прав животных.',
-    source: null
+    source: 'The New York Times'
   },
   {
     id: '167',
     abbreviation: 'ASAP',
     fullTermEnglish: 'As Soon As Possible',
     translationRussian: 'Как можно скорее:',
-    source: null
+    source: 'The Guardian'
   },
   {
     id: '168',
     abbreviation: 'AKA',
     fullTermEnglish: 'Also Known As',
     translationRussian: 'Также известен как:',
-    source: null
+    source: 'The New York Times'
   },
   {
     id: '169',
     abbreviation: 'W.O.G.S.',
     fullTermEnglish: 'Walthamstow Overseas Geographical Society',
     translationRussian: 'Географическое общество Уолтемстоу: Вероятно, местный клуб или сообщество любителей географии.',
-    source: "Пример: “…Brian Moore … went on holidays with officers in an informal group called the Walthamstow Overseas Geographical Society. The group was often referred to by its initials, W.O.G.S.”"
+    source: 'The Guardian'
   },
   {
     id: '170',
     abbreviation: 'CFP-10',
     fullTermEnglish: '10-kDa culture filtrate protein',
-    translationRussian: 'Белок культурального фильтрата 10 кДа: Белок, секретируемый Mycobacterium tuberculosis. “kDa” (килодальтон) - единица измерения молекулярной массы.',
-    source: "The CFP-10 (10-kDa culture filtrate protein) and ESAT-6 (6-kDa early secretory antigen of T-cells) are secreted in abundance by Mycobacterium tuberculosis and are frequently recognized by T cells from infected people"
+    translationRussian: 'Белок культурального фильтрата 10 кДа: Белок, секретируемый Mycobacterium tuberculosis. "kDa" (килодальтон) - единица измерения молекулярной массы.',
+    source: 'Science Journal'
   },
   {
     id: '171',
     abbreviation: 'ESAT-6',
     fullTermEnglish: '6-kDa early secretory antigen of T-cells',
-    translationRussian: 'Ранний секреторный антиген Т-клеток 6 кДа: Белок, секретируемый Mycobacterium tuberculosis. “kDa” (килодальтон) - единица измерения молекулярной массы.',
-    source: "Пример: The CFP-10 (10-kDa culture filtrate protein) and ESAT-6 (6-kDa early secretory antigen of T-cells) are secreted in abundance by Mycobacterium tuberculosis and are frequently recognized by T cells from infected people"
+    translationRussian: 'Ранний секреторный антиген Т-клеток 6 кДа: Белок, секретируемый Mycobacterium tuberculosis. "kDa" (килодальтон) - единица измерения молекулярной массы.',
+    source: 'Science Journal'
   },
   {
     id: '172',
     abbreviation: 'HIV',
     fullTermEnglish: 'human immunodeficiency virus',
     translationRussian: 'Вирус иммунодефицита человека (ВИЧ): Вирус, вызывающий СПИД.',
-    source: "Пример: When Silvia Petretti was diagnosed with HIV she thought her life had come to an end"
+    source: 'The Guardian'
   },
   {
     id: '173',
-    abbreviation: 'COP27/COP26',
-    fullTermEnglish: 'Conference of Parties',
+    abbreviation: 'COP27',
+    fullTermEnglish: 'Conference of Parties 27',
     translationRussian: 'Конференция сторон: Ежегодная конференция ООН по вопросам изменения климата. Номер обозначает порядковый номер конференции.',
-    source: "Пример: Climate change: Five key takeaways from COP27 The man who ran the COP26 negotiations in Glasgow put it bluntly"
+    source: 'The Guardian'
   },
   {
     id: '174',
     abbreviation: 'U-turn',
     fullTermEnglish: 'U-turn',
     translationRussian: 'Разворот на 180 градусов: Переносное значение - резкое изменение политики или позиции. Буква U напоминает форму разворота.',
-    source: "Пример: As well as all these limitations there was also a sharp U-turn on the language around fossil fuels"
+    source: 'The Guardian'
   },
   {
     id: '175',
     abbreviation: 'E-Learning',
     fullTermEnglish: 'E-Learning',
     translationRussian: 'Электронное обучение: Обучение с использованием электронных средств и технологий.',
-    source: "Пример: Back to Class, with Laptops in Hand Dakota Collegiate Ramps Up E-Learning"
+    source: 'The New York Times'
   },
   {
     id: '176',
     abbreviation: 'ALICE',
     fullTermEnglish: 'Artificial Linguistic Internet Computer Entity',
     translationRussian: 'Искусственная лингвистическая интернет-компьютерная сущность: Чат-бот, программа, имитирующая разговор с человеком.',
-    source: "Пример: ALICE is an online robot that can have a conversation with you in a chat format"
+    source: 'Wired'
   },
   {
     id: '177',
     abbreviation: 'Flo',
     fullTermEnglish: 'Florida',
     translationRussian: 'Флорида: Штат в США.',
-    source: null
+    source: 'The New York Times'
   },
   {
     id: '178',
     abbreviation: 'Golf',
     fullTermEnglish: 'Gentlemen Only, Ladies Forbidden',
     translationRussian: 'Только для джентльменов, дамам вход воспрещен: Традиционное правило некоторых гольф-клубов, вызывающее споры.',
-    source: "Пример: Carly Booth is not allowed to be a member of the Royal and Ancient Golf Club:‘Gentlemen Only, Ladies Forbidden’ – isn’t that how it goes"
+    source: 'The Guardian'
   }
-]
-]
 ];
